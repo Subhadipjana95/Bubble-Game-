@@ -15,10 +15,10 @@ function runTimer() {
         }
         else {
             clearInterval(timeInt)
-        //     document.querySelector("#panel").innerHTML = `<h3>Game Over </h3> 
-        //    <h1>Your Score is ${score}</h1>
-        //    <button>Restart</button>`;
-        //     loadGame()
+            document.querySelector("#panel").innerHTML = `<h3>Game Over </h3> 
+           <h1>Your Score is ${score}</h1>
+           <button>Restart</button>`;
+            loadGame()
         }
     }, 1000)
 }
