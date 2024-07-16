@@ -58,15 +58,6 @@ getNewHit()
 runTimer()
 makeBubble()
 
-// gsap.from("#panel h3",{
-//     y:100,
-//     rotate: 360,
-//     opacity: 0,
-//     scale: 0,
-//     ease:"bounce.out",
-//     duration: 2,
-//     delay: 5,
-//     yoyo:true
-// })
+
 
 
