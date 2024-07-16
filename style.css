@@ -163,7 +163,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 1080px),(height: 1920px) {
+@media (max-width: 1080px){
     #main>h1 {
         top: 7%;
         width: 90%;
@@ -173,7 +173,7 @@ body {
     }
 
     #panel {
-        height: 69%;
+        height: 72%;
         width: 80%;
         box-shadow: 0 10px 10px rgb(0, 0, 0, 0.4);
     }
@@ -197,7 +197,7 @@ body {
     #pan-bottom {
         height: calc(100% - 12vh);
         padding: 5vw;
-        gap: 3.5vw;
+        gap: 3.6vw;
     }
 
     #panel h3 {
