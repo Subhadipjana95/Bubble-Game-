@@ -31,7 +31,6 @@ body {
     transform: translate(-50%, -50%);
     font-size: 4vw;
     font-weight: 650;
-    /* color: linear-gradient(rgba(255, 255, 255, 0.405), rgba(61, 239, 171, 0.493)); */
     color: rgb(246, 96, 13);
 }
 
@@ -234,8 +233,8 @@ body {
     }
 
     .bubble1 {
-        height: 5vh;
-        width: 5vh;
+        height: 4.9vh;
+        width: 4.9vh;
         font-size: 4vw;
         border-radius: 50%;
         display: flex;
