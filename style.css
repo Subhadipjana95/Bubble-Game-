@@ -163,7 +163,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 1080px),(height: 1920px) {
     #main>h1 {
         top: 7%;
         width: 90%;
