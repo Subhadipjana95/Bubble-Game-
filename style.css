@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-html, body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
     background-image: url(dan-cristian-padure-SMSLyc9FHl0-unsplash.webp );
@@ -19,17 +23,19 @@ html, body{
     align-items: center;
     justify-content: center;
 }
-#main>h1{
+
+#main>h1 {
     position: absolute;
     top: 5%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 4vw;
     font-weight: 650;
     /* color: linear-gradient(rgba(255, 255, 255, 0.405), rgba(61, 239, 171, 0.493)); */
     color: rgb(246, 96, 13);
 }
-#panel{
+
+#panel {
     height: 80%;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.15);
@@ -38,7 +44,8 @@ html, body{
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.4);
     overflow: hidden;
 }
-#pan-top{
+
+#pan-top {
     height: 10vh;
     width: 100%;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.405), rgba(61, 239, 171, 0.493));
@@ -48,15 +55,18 @@ html, body{
     justify-content: space-between;
     padding: 0 20%;
 }
-.elem{
+
+.elem {
     display: flex;
     align-items: center;
     gap: 1vw;
 }
-.elem h2{
+
+.elem h2 {
     font-weight: 600;
 }
-.box{
+
+.box {
     height: 3.5vw;
     width: 3.5vw;
     display: flex;
@@ -66,10 +76,11 @@ html, body{
     font-size: 1.3vw;
     font-weight: 600;
     color: black;
-    background: linear-gradient(to bottom left,rgba(45, 200, 141, 0.493), rgba(255, 255, 255, 0.422));
+    background: linear-gradient(to bottom left, rgba(45, 200, 141, 0.493), rgba(255, 255, 255, 0.422));
     border-radius: 10px;
 }
-#pan-bottom{
+
+#pan-bottom {
     width: 100%;
     height: calc(100% - 10vh);
     padding: 2vw;
@@ -77,7 +88,8 @@ html, body{
     flex-wrap: wrap;
     gap: 1vw;
 }
-#panel h3{
+
+#panel h3 {
     position: absolute;
     padding: 2vw;
     font-size: 3vw;
@@ -90,7 +102,8 @@ html, body{
     transform: translate(-50%, -50%);
     border-radius: 30px;
 }
-#panel h1{
+
+#panel h1 {
     position: absolute;
     padding: 2vw 3vw;
     font-size: 4vw;
@@ -103,7 +116,8 @@ html, body{
     transform: translate(-50%, -50%);
     border-radius: 30px;
 }
-#panel button{
+
+#panel button {
     padding: 1vw;
     font-size: 1.5vw;
     font-weight: 600;
@@ -119,12 +133,18 @@ html, body{
     border-radius: 15px;
     transition: all ease 0.3s;
 }
-#panel button:hover{
+
+#panel button:hover {
     font-size: 1.65vw;
     background-color: black;
     color: white;
 }
-.bubble{
+
+.bubble1 {
+    display: none;
+}
+
+.bubble {
     height: 3.5vw;
     width: 3.5vw;
     border-radius: 50%;
@@ -137,50 +157,58 @@ html, body{
     font-size: 1.2vw;
     transition: all ease 0.5s;
 }
-.bubble:hover{
+
+.bubble:hover {
     background: linear-gradient(rgba(255, 212, 104, 0.732), rgba(255, 109, 12, 0.766));
     cursor: pointer;
 }
 
 @media (max-width: 430px) {
-    #main>h1{
+    #main>h1 {
         top: 7%;
         width: 90%;
         text-align: center;
         font-size: 8vw;
-        color: rgb(253, 230, 206);
+        color: rgb(242, 150, 52);
     }
-    #panel{
+
+    #panel {
         height: 69%;
         width: 80%;
         box-shadow: 0 10px 10px rgb(0, 0, 0, 0.4);
     }
-    #pan-top{
+
+    #pan-top {
         height: 12vh;
         justify-content: space-around;
         padding: 3.5vw;
     }
-    .elem{
+
+    .elem {
         flex-direction: column;
     }
-    .box{
+
+    .box {
         height: 4vh;
         width: 5vh;
         font-size: 3.8vw;
     }
-    #pan-bottom{
+
+    #pan-bottom {
         height: calc(100% - 12vh);
         padding: 5vw;
-        gap: 5vw;
+        gap: 3.5vw;
     }
-    #panel h3{
+
+    #panel h3 {
         padding: 3vw;
         font-size: 5.5vw;
         box-shadow: 0 5px 10px rgb(0, 0, 0, 0.4);
         top: 25%;
         border-radius: 10px;
     }
-    #panel h1{
+
+    #panel h1 {
         position: absolute;
         padding: 3vw 5vw;
         font-size: 7.5vw;
@@ -188,19 +216,39 @@ html, body{
         top: 50%;
         border-radius: 20px;
     }
-    #panel button{
+
+    #panel button {
         padding: 2vw 3vw;
         font-size: 4.5vw;
         box-shadow: 0 5px 10px rgb(0, 0, 0, 0.4);
         top: 90%;
         border-radius: 10px;
     }
-    #panel button:hover{
+
+    #panel button:hover {
         font-size: 5.8vw;
     }
-    .bubble{
-        height: 4.6vh;
-        width: 4.6vh;
+
+    .bubble {
+        display: none;
+    }
+
+    .bubble1 {
+        height: 5vh;
+        width: 5vh;
         font-size: 4vw;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(rgba(254, 231, 171, 0.708), rgba(248, 144, 25, 0.771));
+        backdrop-filter: blur(10px);
+        font-weight: 550;
+        transition: all ease 0.5s;
+    }
+
+    .bubble1:hover {
+        background: linear-gradient(rgba(255, 212, 104, 0.732), rgba(255, 109, 12, 0.766));
+        cursor: pointer;
     }
 }

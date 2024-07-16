@@ -37,6 +37,10 @@ function makeBubble() {
         var rn = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble">${rn}</div>`;
     }
+    for (var i = 1; i <= 40; i++) {
+        var rn = Math.floor(Math.random() * 10);
+        clutter += `<div class="bubble1">${rn}</div>`;
+    }
 
     document.querySelector("#pan-bottom").innerHTML = clutter;
 }
